@@ -1,0 +1,76 @@
+body{
+    height: 200vh;
+}
+.bmenu{
+     margin-left: 20%;
+    display: inline;
+}
+.but{
+    background: #FFFFFF;
+    box-shadow: -1px 8px 4px rgba(0, 0, 0, 0.295);
+    border-radius: 28px;
+    border: 0;
+    width:130px;
+    height: 36px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 20px;
+}
+
+body{
+    background-color: rgba(37, 241, 54, 0.952);
+}
+
+.modalc{
+    position: absolute;
+    transition: all 0.5s ease-in-out 0.6s;
+width: 560px;
+height: 401px;
+left: 160px;
+top: 181px;
+background: #FFFFFF;
+box-shadow: -1px -1px 28px 17px rgba(0, 0, 0, 0.25);
+}
+.shadow{
+    transition: all 0.5s ease-in-out 0.6s;
+    position: absolute;
+width: 100%;
+height: 100vh;
+left: 0px;
+top: 0px;
+background: rgba(101, 98, 98, 0.63);
+backdrop-filter: blur(4px);
+}
+.modalf{
+    position: absolute;
+width: 440px;
+height: 276px;
+left: 90px;
+top: 90px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+.modalcloses{
+    position: absolute;
+    font-size: 3.5rem;
+    background:none;
+    border: 0px;
+    left: 9em;
+    }
+.hiden{
+    display: none;
+}
+.ModImage{
+    position: absolute;
+    width: 369px;
+    height: 179px;
+    left: 403px;
+    top: 584px;
+}
+.timeline{
+    transform: scaleX(12px);
+}
